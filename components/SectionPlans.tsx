@@ -39,7 +39,7 @@ function SectionPlans() {
   return (
     <section className="flex flex-col md:py-20 py-10 gap-y-10">
       <h2 className="text-center w-10/12 text-2xl font-semibold md:text-3xl max-w-screen-sm mx-auto text-balance">
-        Elije el plan que se adapte a sus necesidades
+        Elije el plan que se adapte a tus necesidades
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 w-10/12 mx-auto max-w-screen-md gap-5 md:gap-10">
         {PLANS.map((plan, idx) => (

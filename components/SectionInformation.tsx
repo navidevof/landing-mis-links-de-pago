@@ -6,7 +6,7 @@ const CARDS = [
   {
     icon: <IconFolder className="size-7 text-custom-green-1" />,
     title: "Crea tu cuenta",
-    description: "Cree tu cuenta y empieza a gestionar tus métodos de pago.",
+    description: "Crea tu cuenta y empieza a gestionar tus métodos.",
   },
   {
     icon: <IconPig className="size-7 text-custom-green-1" />,
@@ -25,7 +25,7 @@ function SectionInformation() {
   return (
     <section className="bg-custom-black-3 flex flex-col gap-y-10 py-10 md:py-16">
       <h2 className="w-10/12 mx-auto text-center text-2xl font-semibold md:text-3xl max-w-screen-sm text-balance">
-        Todo lo que necesitas para gestionar tus pagos en un solo lugar
+        Todo lo que necesitas para gestionar tus métodos en un solo lugar
       </h2>
 
       <aside className="grid grid-cols-1 lg:grid-cols-3 w-10/12 mx-auto max-w-screen-xl gap-5 md:gap-10">
