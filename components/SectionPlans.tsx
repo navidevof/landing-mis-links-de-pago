@@ -57,7 +57,7 @@ function SectionPlans() {
                     key={idx}
                     className="flex gap-x-2 text-white/90 md:text-lg"
                   >
-                    <IconCheck className="size-4 text-custom-green-1 mt-[7px] min-w-4" />
+                    <IconCheck className="size-4 text-custom-green-1 mt-[5px] md:mt-[7px] min-w-4" />
                     {feature}
                   </li>
                 ))}

@@ -25,7 +25,7 @@ export default {
         "hero-gradient-desktop":
           "radial-gradient(circle at center, rgba(0, 255, 0, 0.25), transparent 25%)",
         "hero-gradient-mb":
-          "radial-gradient(circle at center, rgba(0, 255, 0, 0.25), transparent 80%)",
+          "radial-gradient(circle at center, rgba(0, 255, 0, 0.25), transparent 50%)",
       },
     },
   },
