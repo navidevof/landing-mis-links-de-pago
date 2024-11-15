@@ -86,7 +86,10 @@ function TryYourLink() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-y-4">
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-y-4 w-10/12 mx-auto"
+    >
       <label className="w-full bg-custom-black-3 text-white rounded-lg border border-white/30 px-4 py-3 flex items-center">
         <span className="text-nowrap md:text-base text-sm text-white/70">
           mislinksdepago.com/
